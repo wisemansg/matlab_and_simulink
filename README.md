@@ -188,3 +188,101 @@ Possible future enhancements:
 - Create a small assembly with sample shaft + bolts  
 
 Feedback and suggestions welcome! 💬
+
+# 🚀 SIEMENS NX
+
+# Bearing Bracket — Siemens NX CAD Model 
+
+## 📖 Overview
+This project models a bearing bracket with curved saddle and reinforced angled support, fully created in Siemens NX. The component demonstrates key NX workflows including sketch-based extrusion for the base and brace, revolve for the semi-circular saddle, swept or pocket cuts for the U-opening, large edge blending (R30), and precise dimension-driven modeling from an engineering drawing.
+
+## 🎯 Objective
+Accurately recreate the bearing support bracket from the provided technical drawing while ensuring clean, manufacture-ready geometry suitable for machining, casting or 3D printing prototypes. This type of bracket is commonly used to support bearings, bushings or shafts in machinery frames, conveyors, agricultural implements and structural assemblies.
+
+## ⚙️ Specifications & Commands
+
+| **Design Specifications**          | **Siemens NX Commands / Features Demonstrated** |
+|------------------------------------|-------------------------------------------------|
+| Overall base length 160 mm         | Sketch → Extrude                                |
+| Base width 100 mm (main) + 52 mm step | Revolve (saddle arc)                         |
+| Saddle inner radius R30 (Ø60 bore) | Pocket / Subtract for U-opening                |
+| Saddle height 42 mm                | Extrude (angled brace)                         |
+| Angled brace thickness 12 mm       | Sweep or Extrude cut (openings)                |
+| Brace length ≈76 mm                | Edge Blend (R30 main + smaller fillets)        |
+| Base height stepped: 24 mm / 12 mm | Datum features / Constraints                   |
+| U-opening width 30 mm              | Synchronous / Ordered modeling                 |
+| Main fillet R30                    | 2D Sketching with dimensions & relations       |
+| Units: Millimeters (mm)            |                                                 |
+
+## ✨ Design Features
+- Large semi-circular saddle with R30 inner radius (suitable for Ø60 shaft or bearing OD)  
+- Open U-shaped design for easy shaft insertion / removal  
+- Angled reinforcing brace (12 mm thick) connecting saddle to base  
+- Stepped base with 100 mm main section + 52 mm extended / lowered section  
+- Uniform material thickness suitable for casting or machining  
+- Large R30 external fillet for strength and stress reduction  
+
+## 📐 Technical Drawing Source
+Model was built directly from the following 2D information visible in the isometric view:
+- All principal linear dimensions  
+- Arc radius and saddle dimensions  
+- Brace angles and thicknesses  
+- Base step heights and lengths  
+- Fillet callouts (R30)  
+
+## 📸 Models / Screenshots
+
+![Drawing View](./siemennxassets/BBB0.jpeg)  
+![Model View](./siemennxassets/BBB1.png)  
+![Model View](./siemennxassets/BBB2.png)  
+![Model View](./siemennxassets/BBB3.png)  
+
+## 📥 CAD Downloads
+
+stl (for 3D printing / visualization)  
+
+Download the file here:  
+[Download Bearing Bracket archive](./siemennxassets/Bearing%20Bracket.zip)
+
+## 🏭🔩 Manufacturing Considerations
+Recommended production methods:
+
+- CNC machining from aluminum or steel block (most common)  
+- Casting (sand or investment) + light machining of saddle surface  
+- Fabrication alternative: plasma/laser cut plates + welded saddle (less precise)  
+
+Design supports:
+- Easy shaft / bearing installation via open U-shape  
+- Good fixturing on large base surfaces  
+- R30 transitions reduce stress concentrations under load  
+
+## 🌐 Applications
+Typical real-world use cases:
+
+- Bearing or bushing supports in machinery frames  
+- Conveyor roller end supports  
+- Agricultural equipment (plows, harvesters)  
+- Structural shaft mounts  
+- Prototype test rigs  
+- Industrial equipment frames  
+
+## 💭 Reflection
+This Siemens NX project helped demonstrate:
+
+- Reading and interpreting isometric drawings with angled features  
+- Effective use of revolve and subtract for curved open saddles  
+- Creating strong angled brace geometry with consistent thickness  
+- Application of large structural fillets (R30) for realistic strength  
+- Clean model structure suitable for downstream manufacturing or assembly use  
+
+Possible future enhancements:
+
+- Add mounting holes or slots in the base  
+- Include precise bearing seat features  
+- Apply GD&T (concentricity on saddle, flatness on base)  
+- Create proper 2D drawing sheet inside NX with views & annotations  
+- Add material and mass properties  
+- Perform basic FEA (bearing load → stress in bracket)  
+- Create a small assembly with sample shaft + bearing  
+
+Feedback and suggestions welcome! 💬
