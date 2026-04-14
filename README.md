@@ -7,20 +7,18 @@ This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pip
 ![Project Goal](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%200.jpeg)  
 **Figure 1:** Problem statement – 350 m pipeline, inlet pressure 1000 kPag, flow rate 15 m³/h, target outlet pressure 400 kPag.
 
-## 📸 Project Model
+## 📸 Project Model 
 
-![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%204.jpeg)  
-**Figure 3:** Overall flowsheet with Pipe Segment 101
+![Main Flowsheet](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%204.jpeg)  
 
-![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%202.jpeg)  
-**Figure 4:** Stream conditions and pipe specifications
 
-![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%201.jpeg)  
-**Figure 5:** Additional model view
+![Stream Details](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%202.jpeg)  
+
+
+![Model View](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%201.jpeg)  
+
 
 ## ⚙️ Simulation Results
-
-**Main Results:**
 
 | Parameter         | Inlet       | Outlet (at 350 m) |
 |-------------------|-------------|-------------------|
@@ -29,8 +27,8 @@ This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pip
 | Flow Rate         | 15.01 m³/h | 15.01 m³/h       |
 | **Pressure Drop** | —          | **267.2 kPa**    |
 
+Detailed pressure and temperature profile along the pipe.
 ![Pipe Profile](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%203.jpeg)  
-**Figure 2:** Detailed pressure and temperature profile along the pipe.
 
 ## 📊 Realistic Assessment
 The simulation converged successfully without any errors or warnings (except hydrate formation being ignored). The outlet pressure achieved at the end of the 350-meter pipe is 732.8 kPag, while the target outlet pressure specified in the problem statement was 400 kPag. This means the pressure drop obtained in the simulation is only 267.2 kPa, which is significantly lower than the required pressure drop of approximately 600 kPa. This difference suggests that the pipe diameter chosen in the model is likely too large, resulting in lower friction losses than expected.
