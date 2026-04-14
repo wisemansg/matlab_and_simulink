@@ -1,17 +1,15 @@
 # Aspen HYSYS - Pipeline Pressure Drop Simulation
 
 ## 📖 Overview
-This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pipeline transporting feed water from a storage tank to a heat exchanger. The main purpose of this project is to model the pressure drop and temperature change of water flowing through a long pipeline under given flow conditions. The simulation helps understand how pressure decreases along the pipe due to friction and other losses.
+This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pipeline transporting feed water from a storage tank to a heat exchanger. The project focuses on modeling the pressure drop and temperature change along the pipeline under specified flow conditions.
 
 ## 🎯 Project Objective
+The main objective is to accurately simulate the hydraulic performance of the pipeline with an inlet pressure of 1000 kPag and a flow rate of 15 m³/h, aiming to achieve a target outlet pressure of 400 kPag at the heat exchanger inlet. This study evaluates the pressure drop due to friction losses and provides insight into proper pipeline sizing.
 ![Project Goal](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%200.jpeg)  
-Problem statement – 350 m pipeline, inlet pressure 1000 kPag, flow rate 15 m³/h, target outlet pressure 400 kPag.
-
 ## 📸 Project Model 
 
 
 ![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%202.jpeg)  
-
 
 ![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%201.jpeg)  
 
