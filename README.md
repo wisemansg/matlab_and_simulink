@@ -5,7 +5,7 @@ This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pip
 
 ## 🎯 Project Objective
 ![Project Goal](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%200.jpeg)  
-**Figure 1:** Problem statement – 350 m pipeline, inlet pressure 1000 kPag, flow rate 15 m³/h, target outlet pressure 400 kPag.
+Problem statement – 350 m pipeline, inlet pressure 1000 kPag, flow rate 15 m³/h, target outlet pressure 400 kPag.
 
 ## 📸 Project Model 
 
