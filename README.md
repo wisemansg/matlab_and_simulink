@@ -9,13 +9,11 @@ This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pip
 
 ## 📸 Project Model 
 
-![Main Flowsheet](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%204.jpeg)  
+
+![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%202.jpeg)  
 
 
-![Stream Details](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%202.jpeg)  
-
-
-![Model View](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%201.jpeg)  
+![Model](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%201.jpeg)  
 
 
 ## ⚙️ Simulation Results
@@ -26,6 +24,9 @@ This is a basic steady-state simulation in Aspen HYSYS for a 350-meter water pip
 | Pressure          | 1000 kPag  | 732.8 kPag       |
 | Flow Rate         | 15.01 m³/h | 15.01 m³/h       |
 | **Pressure Drop** | —          | **267.2 kPa**    |
+
+Main Results
+![Main Flowsheet](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%204.jpeg)  
 
 Detailed pressure and temperature profile along the pipe.
 ![Pipe Profile](https://raw.githubusercontent.com/wisemansg/hysys/main/hysysassets/HYSYS%20pipeline%20design%203.jpeg)  
