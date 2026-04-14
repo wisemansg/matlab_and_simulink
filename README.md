@@ -34,5 +34,3 @@ The simulation converged successfully without any errors or warnings (except hyd
 
 ## 💭 Reflection
 This project helped me practice setting up a simple pipeline in HYSYS, using the Pipe Segment unit operation, defining material streams with proper specifications, running the solver, and viewing the detailed pressure and temperature profiles along the pipe length. It also gave me good experience in comparing simulation results with the given design targets and understanding the importance of correct pipe sizing for achieving desired pressure drops in process piping systems.
-
-**Note:** This is an introductory-level simulation.
