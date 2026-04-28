@@ -11,7 +11,13 @@ The power plant is composed of:
 
 The system converts solar energy into usable AC power through a two-stage power conversion architecture.
 
-## 🖼️ 2. Simulink Model
+## ⚙️ 2. System Architecture
+
+**PV Array → DC-DC Boost Converter → DC-AC Inverter → Passive LC Filter**
+
+![System Architecture](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Project1%20System%20Architecture.png)
+
+## 🖼️ 3. Simulink Model
 
 ### Full Simulink Model View
 
@@ -25,7 +31,7 @@ The system converts solar energy into usable AC power through a two-stage power 
 **Inverter & Filter Stage**  
 ![Inverter and Filter Stage](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Inverter%20%2B%20Filtered%20Output.png)
 
-## 📊 3. Simulation Results
+## 📊 4. Simulation Results
 
 ### Key Performance Indicators
 
@@ -49,7 +55,7 @@ The system converts solar energy into usable AC power through a two-stage power 
 **3. Inverter + Filtered Output**  
 ![Inverter and Filtered AC Output](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Inverter%20%2B%20Filtered%20Output.png)
 
-## 🔍 4. Deep Dive Analysis & Key Parameters
+## 🔍 5. Deep Dive Analysis & Key Parameters
 
 ### Simulation Parameters
 | Parameter          | Value              |
@@ -72,19 +78,22 @@ The system converts solar energy into usable AC power through a two-stage power 
 | Modulation Index     | 0.8            |
 | Fundamental Frequency| 60 Hz          |
 
-## 🛠️ 5. Technology Stack
+
+## 🛠️ 6. Technology Stack
 
 - **Simulation Software:** MATLAB + Simulink
 - **Library:** Simscape Electrical (Power Systems Blockset)
 - **Key Components:** PV Array, Universal Bridge, PWM Generator (2-Level), IGBT/Diode, Series RLC Branch, powergui
 
-## 📥 6. Download the Model
+
+## 📥 7. Download the Model
 
 You can directly download the complete project files:
 
 - **Main Simulink Model**: [`Project1.slx`](https://github.com/wisemansg/matlab_and_simulink/blob/main/assets/Project1.slx)
 
-## 🚀 7. How to Run the Simulation
+
+## 🚀 8. How to Run the Simulation
 
 1. Open MATLAB
 2. Load the model: `Project1.slx`
@@ -92,9 +101,9 @@ You can directly download the complete project files:
 4. Run the simulation (`Ctrl + T`)
 5. View results in the Scope blocks
 
+
 ## 📝 Notes
 
 - The model uses detailed switching devices (IGBT/Diode) for realistic simulation.
 - Parameters can be adjusted for different weather conditions.
 - Good base for learning grid-tied or standalone PV systems.
-
