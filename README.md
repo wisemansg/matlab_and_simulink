@@ -11,23 +11,19 @@ The power plant is composed of:
 
 The system converts solar energy into usable AC power through a two-stage power conversion architecture.
 
----
-
 ## 🖼️ 2. Simulink Model
 
 ### Full Simulink Model View
 
-![Complete Simulink Model](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/FULL_SIMULINK_MODEL.png)
+![Complete Simulink Model](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Full%20Simulink%20Model%20View.png)
 
 ### Key Subsystems
 
 **PV Array & Boost Converter Stage**  
-![PV Array and Boost Converter](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/PV_BOOST_STAGE.png)
+![PV Array and Boost Converter](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/PV_Array_Boost_Converter_Stage.png)
 
 **Inverter & Filter Stage**  
-![Inverter and Filter Stage](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/INVERTER_FILTER_STAGE.png)
-
----
+![Inverter and Filter Stage](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Inverter%20%2B%20Filtered%20Output.png)
 
 ## 📊 3. Simulation Results
 
@@ -45,15 +41,13 @@ The system converts solar energy into usable AC power through a two-stage power 
 ### Waveform Results
 
 **1. PV Array Output (Voltage)**  
-![PV Array Output](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/PV_OUTPUT.png)
+![PV Array Output](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/PV%20Array%20Output%20(Voltage).png)
 
 **2. DC Link Voltage (After Boost Converter)**  
-![DC Link Voltage](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/DC_LINK_VOLTAGE.png)
+![DC Link Voltage](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/DC%20Link%20Voltage%20(After%20Boost%20Converter).png)
 
 **3. Inverter + Filtered Output**  
-![Inverter and Filtered AC Output](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/FILTERED_AC_OUTPUT.png)
-
----
+![Inverter and Filtered AC Output](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Inverter%20%2B%20Filtered%20Output.png)
 
 ## 🔍 4. Deep Dive Analysis & Key Parameters
 
@@ -78,23 +72,17 @@ The system converts solar energy into usable AC power through a two-stage power 
 | Modulation Index     | 0.8            |
 | Fundamental Frequency| 60 Hz          |
 
----
-
 ## 🛠️ 5. Technology Stack
 
 - **Simulation Software:** MATLAB + Simulink
 - **Library:** Simscape Electrical (Power Systems Blockset)
 - **Key Components:** PV Array, Universal Bridge, PWM Generator (2-Level), IGBT/Diode, Series RLC Branch, powergui
 
----
-
 ## 📥 6. Download the Model
 
 You can directly download the complete project files:
 
-- **Main Simulink Model**: [`Project1.slx`](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/Project1.slx)
-
----
+- **Main Simulink Model**: [`Project1.slx`](https://github.com/wisemansg/matlab_and_simulink/blob/main/assets/Project1.slx)
 
 ## 🚀 7. How to Run the Simulation
 
@@ -104,16 +92,9 @@ You can directly download the complete project files:
 4. Run the simulation (`Ctrl + T`)
 5. View results in the Scope blocks
 
----
-
 ## 📝 Notes
 
 - The model uses detailed switching devices (IGBT/Diode) for realistic simulation.
 - Parameters can be adjusted for different weather conditions.
 - Good base for learning grid-tied or standalone PV systems.
 
----
-
-**Feel free to fork, improve, or use this model for your own photovoltaic system simulations!**
-
-*Last updated: April 2026*
