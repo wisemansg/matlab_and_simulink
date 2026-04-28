@@ -29,7 +29,7 @@ The system converts solar energy into usable AC power through a two-stage power 
 ![PV Array and Boost Converter](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/PV_Array_Boost_Converter_Stage.png)
 
 **Inverter & Filter Stage**  
-![Inverter and Filter Stage](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Inverter%20%2B%20Filtered%20Output.png)
+![Inverter and Filter Stage](https://raw.githubusercontent.com/wisemansg/matlab_and_simulink/main/assets/Inverter%20%2B%20Filtered%20Output.png) 
 
 ## 📊 4. Simulation Results
 
